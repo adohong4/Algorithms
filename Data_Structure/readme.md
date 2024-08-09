@@ -4,6 +4,7 @@
 - Enqueue: O(1)
 - Dequeue: O(1)
 - Peek: O(1)
+
 **Tình huống sử dụng: Quản lý các tác vụ chờ xử lý.** 
 Ví dụ:
 - Hệ thống in ấn: Các tài liệu được đưa vào hàng đợi in, và sẽ được in theo thứ tự mà chúng được gửi đến.
@@ -13,6 +14,7 @@ Ví dụ:
 - Thêm (Insert): O(1) trung bình, O(n) trong trường hợp xấu
 - Tìm kiếm (Search): O(1) trung bình, O(n) trong trường hợp xấu
 - Xóa (Delete): O(1) trung bình, O(n) trong trường hợp xấu
+
 **Tình huống sử dụng: Lưu trữ và truy xuất dữ liệu theo khóa.**
 Ví dụ:
 - Lưu trữ thông tin người dùng với ID người dùng làm khóa và thông tin cá nhân làm giá trị.
@@ -22,6 +24,7 @@ Ví dụ:
 - Thêm (Insert): O(log n)
 - Xóa (Delete): O(log n)
 - Tìm kiếm phần tử tối thiểu/tối đa: O(1)
+
 **Tình huống sử dụng: Quản lý các phần tử với thứ tự ưu tiên.**
 Ví dụ:
 - Thuật toán tìm kiếm đường đi ngắn nhất (Dijkstra) sử dụng heap để lấy phần tử có độ ưu tiên cao nhất.
@@ -31,6 +34,7 @@ Ví dụ:
 - Thêm (Insert): O(n) (trong trường hợp cây không cân bằng), O(log n) (trong trường hợp cây cân bằng)
 - Tìm kiếm (Search): O(n) (trong trường hợp cây không cân bằng), O(log n) (trong trường hợp cây cân bằng)
 - Xóa (Delete): O(n) (trong trường hợp cây không cân bằng), O(log n) (trong trường hợp cây cân bằng)
+
 **Tình huống sử dụng: Quản lý dữ liệu có cấu trúc phân cấp.**
 Ví dụ:
 - Cấu trúc thư mục trên hệ thống tệp, nơi mỗi thư mục có thể chứa các tệp và thư mục con.
@@ -40,6 +44,7 @@ Ví dụ:
 - Thêm (Insert): O(log n)
 - Tìm kiếm (Search): O(log n)
 - Xóa (Delete): O(log n)
+
 **Tình huống sử dụng: Cần duy trì thứ tự và hiệu suất tìm kiếm.**
 Ví dụ:
 - Cây AVL hoặc cây Red-Black cho phép thêm, xóa, và tìm kiếm hiệu quả trong các ứng dụng yêu cầu truy cập dữ liệu nhanh.
@@ -49,6 +54,7 @@ Ví dụ:
 - Push: O(1)
 - Pop: O(1)
 - Peek: O(1)
+
 **Tình huống sử dụng: Quản lý các tác vụ theo thứ tự LIFO.**
 Ví dụ:
 - Xử lý các biểu thức toán học, như trong việc đánh giá biểu thức hoặc chuyển đổi giữa các hệ thống số.
@@ -58,6 +64,7 @@ Ví dụ:
 - Thêm (Insert): O(m), với m là độ dài của chuỗi
 - Tìm kiếm (Search): O(m)
 - Xóa (Delete): O(m)
+
 **Tình huống sử dụng: Tìm kiếm chuỗi hoặc tiền tố.**
 Ví dụ:
 - Tìm kiếm từ trong từ điển, nơi người dùng có thể nhập một phần của từ và nhận lại danh sách các từ phù hợp.
